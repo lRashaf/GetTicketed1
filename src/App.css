@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.event-carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; /* إضافة بعض المسافات حول الـ carousel */
+}
+
+/* تحديد حجم الصورة داخل الـ carousel */
+.event-slide {
+  position: relative;
+}
+
+/* تحديد حجم الصور بشكل موحد */
+.event-image {
+  width: 100%; /* تأكيد أن العرض يكون 100% بالنسبة للمساحة المتاحة */
+  height: 350px;  /* الحجم الثابت لجميع الصور */
+  object-fit: cover;  /* تأكيد أن الصور ستغطى المساحة بدون تشويه */
+  border-radius: 10px; /* إضافة حواف دائرية للصورة */
+}
+
+/* تنسيق النص تحت الصورة */
+.event-info {
+  text-align: center;  /* محاذاة النص للمنتصف */
+  margin-top: 10px;  /* إضافة مسافة بين الصورة والنص */
+}
+
+.event-info h3 {
+  font-size: 18px;  /* حجم الخط */
+  color: #333;  /* لون النص */
+}
+
+.event-info p {
+  font-size: 16px;
+  color: #777;  /* لون السعر */
+}
+
+.book-btn {
+  padding: 10px 20px;
+  background-color: #ff4081; /* اللون الوردي */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.book-btn:hover {
+  background-color: #e040fb; /* اللون الوردي الفاتح */
+}

@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* إعدادات Slick Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide {
+  display: flex; /* تأكد أن الصور تظهر بشكل مناسب */
+  justify-content: center;
+  align-items: center;
+}
+
+/* تحديد حجم الصور بشكل موحد */
+.event-image {
+  width: 100%; /* تأكد أن الصورة تأخذ العرض 100% */
+  height: 350px; /* ضبط الارتفاع بشكل ثابت لجميع الصور */
+  object-fit: cover; /* التأكد من أن الصور تملأ المساحة دون تشويه */
+  border-radius: 10px; /* إضافة حواف دائرية للصورة */
+}
+
+/* تنسيق النص تحت الصورة */
+.event-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.event-info h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.event-info p {
+  font-size: 16px;
+  color: #777;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  background-color: #ff4081; /* اللون الوردي */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.book-btn:hover {
+  background-color: #e040fb; /* اللون الوردي الفاتح */
+}
+
+.section {
+  margin: 20px auto;
+  max-width: 80%; /* عرض السكشن بنسبة 80% من الصفحة */
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.event-slide {
+  padding: 10px; /* مسافة بين الصور */
+}
+
+.event-image-small {
+  width: 100%; /* تأخذ عرض العنصر الأب */
+  height: 200px; /* ارتفاع أصغر للصور */
+  object-fit: cover; /* ملء العنصر دون تشويه الصورة */
+  border-radius: 5px; /* حواف الصور */
+}
